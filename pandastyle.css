@@ -11,6 +11,10 @@ img {
   position: relative;
 }
 
+p {
+    border: solid 5px hsl(136, 48%, 75%);
+}
+
 .column {
   width: 70%;
   margin: 40px auto;
