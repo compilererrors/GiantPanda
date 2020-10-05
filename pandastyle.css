@@ -1,9 +1,15 @@
-body{
+body {
     background-color: red ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     width: 80%;
-    position: static;
+    margin: 2% auto;
+    position: relative;
+}
+
+.column {
+    width: 70%;
+    margin: 40px auto;
 }
