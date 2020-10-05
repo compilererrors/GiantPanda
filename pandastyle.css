@@ -23,3 +23,8 @@ h1 {
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h1, h2 {
+    color: #008064ab;
+    text-shadow: 0px 0px 15px #008064ab;
+}
