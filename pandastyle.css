@@ -13,6 +13,9 @@ img {
 
 p {
     border: solid 5px hsl(136, 48%, 75%);
+    border-style: ridge;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .column {
