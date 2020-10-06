@@ -11,3 +11,7 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+function scrollToPanda() {
+    window.scrollBy(100, 0);
+}
