@@ -33,3 +33,29 @@ h1, h2 {
   margin: -5px auto;
 }
 
+/* ID's and classes for External links added by Stefan */
+#rightMenuExternalLinks { 
+  position: static;
+  float: right;
+  right: 1px;
+  top: 30px;
+  width: 200px;
+  max-width: 25%;
+  background-color: darkorange;
+  padding: 5px 5px 5px 5px;
+}
+
+#rightMenuExternalLinks .menuHeader {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#rightMenuExternalLinks .a .a:link .a:visited a.:active {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: darkgreen;
+}
+
+/* end of External links*/
