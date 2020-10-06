@@ -97,6 +97,9 @@ img {
 }
 
 #navbar {
+  border-radius: 8px;
+  width: 90%;
+  margin: 10px auto;
   overflow: hidden;
   background-color: #333;
 }
@@ -117,7 +120,7 @@ img {
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
+  background-color: #008064ab;
   color: white;
 }
 
@@ -128,7 +131,7 @@ img {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 80%;
 }
 
 .sticky + .content {

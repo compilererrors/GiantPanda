@@ -15,9 +15,9 @@
     <!-- Navbar menu by Viktor-->
     <navbody>
     <div id="navbar">
-        <a class="active" href="javascript:void(0)">Giant Panda</a>
-        <a href="javascript:void(0)">Panda Cubs</a>
-        <a href="javascript:void(0)">Diet</a>
+        <a href="#section1">Giant panda</a>
+        <a href="#section2">Panda Pictures</a>
+        <a href="#section3">Diet</a>
       </div>
     </navbody>
       <!-- Navbar menu-->
@@ -25,14 +25,19 @@
     <!-- right menu with external links by Stefan -->
     <div id="rightMenuExternalLinks">
         <span class="menuHeader">External Giant Panda resources:</span><br>
-        <a href="https://www.worldwildlife.org/species/giant-panda" target="_new">WWF</a><br>
-        <a href="https://www.livescience.com/27335-giant-pandas.html" target="_new">LiveScience</a><br>
-        <a href="https://www.nationalgeographic.com/animals/mammals/g/giant-panda/" target="_new">National Geographic</a><br>
+        <a href="https://www.worldwildlife.org/species/giant-panda" target="_new" onmouseover="showMe('wwf');" onmouseout="hideMe()">WWF</a><br>
+        
+        <a href="https://www.livescience.com/27335-giant-pandas.html" target="_new" onmouseover="showMe('LS');" onmouseout="hideMe()">LiveScience</a><br>
+        <a href="https://www.nationalgeographic.com/animals/mammals/g/giant-panda/" target="_new" onmouseover="showMe('NG');" onmouseout="hideMe()">National Geographic</a><br>
     </div>
+    <div class="hiddenInfo" id="hi" style="visibility: hidden; position:static; float:right; top: inherit; margin-right: 5px; width: 150px;">
+        Världsnaturfonden WWF (engelska: World Wide Fund for Nature, ursprungligen World Wildlife Fund) är en internationell organisation inom naturvård. Den bildades 1961 och är en partipolitiskt obunden ideell organisation. Internationellt sett är den en av de största privata miljö- och naturvårdsorganisationerna. Den har sitt huvudkontor i Gland i Schweiz.
+    </div>
+    
     <!-- end external links -->
 
     <div class="column">
-        <h1>Giant Panda</h1>
+        <h1 id="section1">Giant Panda</h1>
 
         <p>
             Giant panda (Ailuropoda melanoleuca; Chinese: 大熊猫; pinyin:
@@ -72,9 +77,14 @@
             oranges, or bananas along with specially prepared food.
         </p>
 
+        <div id="section2"></div>
         <div class="imgwithtext">
             <img src="images/Panda_resting.jpg" title="Panda resting" /><br />
-            Resting panda
+            Grown panda relaxing
+        </div>
+
+        <div class="imgwithtext">
+            <img src="images/Panda-tecknad.jpg" title="Hello!" />
         </div>
 
         <div class="imgwithtext">
@@ -82,7 +92,7 @@
             Panda cubs
         </div>
 
-        <h1>Diet</h1>
+        <h1 id="section3">Diet</h1>
 
         <p>
             Despite its taxonomic classification as a carnivoran, the giant panda's diet is primarily herbivorous,
@@ -107,7 +117,20 @@
     </div>
 
     
-
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 
 
 
