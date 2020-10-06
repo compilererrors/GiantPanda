@@ -7,8 +7,11 @@ body {
 
 img {
   width: 80%;
+  max-width: 80%;
+  height: auto;
   margin: 2% auto;
   position: relative;
+  border-radius: 8px;
 }
 
 .column {
@@ -24,4 +27,8 @@ h1 {
 h1, h2 {
     color: #008064ab;
     text-shadow: 0px 0px 15px #008064ab;
+}
+
+#picText {
+  margin: -5px auto;
 }
