@@ -2,6 +2,7 @@ body {
   background-color: #3ec2accb;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 25px;
+  margin: 0px;
   
 }
 
@@ -17,6 +18,8 @@ img {
   border-radius: 20px;
   background-color: ivory;
   padding: 1px 40px 40px 40px;
+  border-left: solid 25px pink;
+  border-right: solid 25px pink;
 }
 
 h1 {
