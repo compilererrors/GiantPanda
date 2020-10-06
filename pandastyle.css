@@ -41,7 +41,8 @@ h1, h2 {
   top: 30px;
   width: 200px;
   max-width: 25%;
-  background-color: darkorange;
+  border-left-color: darkgreen;
+  border-left-style: double;
   padding: 5px 5px 5px 5px;
 }
 
@@ -51,17 +52,18 @@ h1, h2 {
   font-size: 12px;
 }
 
-#rightMenuExternalLinks .a .a:link .a:visited {
+#rightMenuExternalLinks a:any-link {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 10px;
   color: darkgreen;
-  border-left-style: double;
-  border-left-color: darkgreen;
+  text-decoration: none;
+ 
 }
 
-#rightMenuExternalLinks .a:hover {
+#rightMenuExternalLinks a:hover {
   font-style: oblique;
+  text-decoration: underline;
 }
 
 /* end of External links*/
