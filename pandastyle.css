@@ -28,11 +28,20 @@ img {
   height: auto;
   margin: 2% auto;
   position: relative;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 #picText {
   margin: -5px auto;
+}
+
+.imgwithtext {
+  margin: 3% auto;
+  padding-left: 1em;
+}
+
+.imgwithtext img {
+  margin: 0;
 }
 
 .column a {
