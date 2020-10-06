@@ -51,11 +51,17 @@ h1, h2 {
   font-size: 12px;
 }
 
-#rightMenuExternalLinks .a .a:link .a:visited a.:active {
+#rightMenuExternalLinks .a .a:link .a:visited {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   font-size: 1em;
   color: darkgreen;
+  border-left-style: double;
+  border-left-color: darkgreen;
+}
+
+#rightMenuExternalLinks .a:hover {
+  font-style: oblique;
 }
 
 /* end of External links*/
