@@ -76,6 +76,9 @@ h1, h2 {
 }
 
 #navbar {
+  border-radius: 8px;
+  width: 90%;
+  margin: 10px auto;
   overflow: hidden;
   background-color: #333;
 }
@@ -96,7 +99,7 @@ h1, h2 {
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
+  background-color: #008064ab;
   color: white;
 }
 
@@ -107,7 +110,7 @@ h1, h2 {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 80%;
 }
 
 .sticky + .content {
