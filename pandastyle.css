@@ -33,6 +33,15 @@ h1, h2 {
   margin: -5px auto;
 }
 
+.column a {
+  text-decoration: none;
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+
 /* ID's and classes for External links added by Stefan */
 #rightMenuExternalLinks { 
   position: static;
